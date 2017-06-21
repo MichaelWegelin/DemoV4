@@ -189,6 +189,7 @@ sap.ui.define([
 			this.oWhenMetadataIsLoaded = new Promise(function(fnResolve, fnReject) {
 				oModel.attachEventOnce("metadataLoaded", fnResolve);
 				oModel.attachEventOnce("metadataFailed", fnReject);
+				// Hallo Welt
 			});
 		}
 
